@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="outVulMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="com.jiyufei.platform.dao.OutVulMapper"></property>
+        <property name="sqlSessionFactory" ref="mySqlSessionFactory"></property>
+    </bean>
+    
+    <bean id="inVulMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="com.jiyufei.platform.dao.InVulMapper"></property>
+        <property name="sqlSessionFactory" ref="mySqlSessionFactory"></property>
+    </bean>
+    
+    <bean id="loginUserMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="com.jiyufei.platform.dao.LoginUserMapper"></property>
+        <property name="sqlSessionFactory" ref="mySqlSessionFactory"></property>
+    </bean>
+    
+    <bean id="vulTypeMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="com.jiyufei.platform.dao.VulTypeMapper"></property>
+        <property name="sqlSessionFactory" ref="mySqlSessionFactory"></property>
+    </bean>
+    
+    <bean id="logMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="com.jiyufei.platform.dao.LogMapper"></property>
+        <property name="sqlSessionFactory" ref="mySqlSessionFactory"></property>
+    </bean>
+    
+    <bean id="noticeMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="com.jiyufei.platform.dao.NoticeMapper"></property>
+        <property name="sqlSessionFactory" ref="mySqlSessionFactory"></property>
+    </bean>
+    
+    <bean id="systemLogMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="com.jiyufei.platform.dao.SystemLogMapper"></property>
+        <property name="sqlSessionFactory" ref="mySqlSessionFactory"></property>
+    </bean>
+    
+    <bean id="systemInfoMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="com.jiyufei.platform.dao.SystemInfoMapper"></property>
+        <property name="sqlSessionFactory" ref="mySqlSessionFactory"></property>
+    </bean>
+    
+</beans>

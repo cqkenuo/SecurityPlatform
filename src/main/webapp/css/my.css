@@ -1,0 +1,200 @@
+.m-red{
+    color:red;
+}
+
+.m-red1{
+    color:#FF0066;
+}
+
+.m-blue{
+    color:blue;
+}
+
+.m-blue1{
+    color:#0000CC;
+}
+
+.m-blue2{
+    color:#990099;
+}
+
+.m-brown{
+    color:#A52A2A;
+}
+
+.m-aquamarine{
+    color:#7FFFD4;
+}
+
+.m-c1{
+    color:#CC33FF;
+}
+
+.m-c2{
+    color:#6633FF;
+}
+
+.m-c3{
+    color:#FF9900;
+}
+
+.m-yellow{
+    color: yellow;
+}
+
+.m-green{
+    color: green;
+}
+
+.m-greenyellow{
+    color:greenyellow;
+}
+
+.m-gy{
+    color:#66FF00;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+.size-15{
+    font-size: 15px;
+}
+
+.size-25{
+    font-size: 25px;
+}
+
+.chart-height1{
+    height: 250px;
+}
+
+.padding-big{
+    padding:5px 5px 5px 20px;
+}
+
+.padding-medium{
+    padding:3px 3px 3px 20px;
+}
+
+.padding-small{
+    padding:1px 1px 1px 20px;
+}
+
+.bg-normal{
+    background-color: #F0F0F0;
+    border-color:#8B5742
+}
+.bg-normal a{
+    color:#A020F0;
+}
+
+.margin-3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.margin-10{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.button-sm{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size:12px;
+}
+
+.textarea-fixed{
+    height:320px;
+}
+
+.header-img{
+    height: 40px;
+    width: 70px;
+}
+
+@media (min-width: 992px) {
+    .modal-lg {
+        width: 1100px;
+    }
+}
+
+/*
+
+.label_check,
+.label_radio {
+    padding-left: 34px;
+}
+
+.label_radio {
+    background: url(../img/checkbox/radio-off.png) no-repeat;
+}
+
+.label_check {
+    background: url(../img/checkbox/check-off.png) no-repeat;
+}
+
+label.c_on {
+    background: url(../img/checkbox/check-on.png) no-repeat;
+}
+
+label.r_on {
+    background: url(../img/checkbox/radio-on.png) no-repeat;
+}
+
+.label_check input,
+.label_radio input {
+    position: absolute;
+    left: -9999px;
+}
+*/
+
+.word-justify{
+    width:80%;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+}
+
+.my-element{
+    color:#0000CC;
+    font-size: 15px;
+}
+
+.matched-elements-style{
+    margin-top: 15px;
+    border-style:double;
+    border-width:3px;
+    border-color:#FF893C;
+}
+
+
+.m-classic-search {
+    margin-bottom: 30px;
+}
+.m-classic-search h4 {
+    margin-bottom: 7px;
+    font-weight: 300;
+    font-size: 16px;
+}
+.m-classic-search h4 a {
+    color: #314558;
+}
+
+.m-classic-search h4 a:hover {
+    text-decoration: underline;
+}
+
+.my-divider {
+    border-bottom:1px solid;
+}
+
+/*
+.text-left {
+    text-align:left
+}
+*/
